@@ -51,3 +51,4 @@ D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites
 D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\bin\Debug\net5.0\NetTopologySuite.dll
 D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.NetTopologySuite.dll
 D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\obj\Debug\net5.0\EFCoreMySqlNetTopologySuite.cs
+D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\obj\Debug\net5.0\Razor\Views\Post\Cadastro.cshtml.g.cs

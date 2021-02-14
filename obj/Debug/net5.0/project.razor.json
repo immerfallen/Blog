@@ -15613,6 +15613,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\02 - Documentar e realizar manutenção de sites\\codigos\\Blog\\Views\\Post\\Cadastro.cshtml",
+      "TargetPath": "Views\\Post\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\02 - Documentar e realizar manutenção de sites\\codigos\\Blog\\Views\\Post\\Lista.cshtml",
+      "TargetPath": "Views\\Post\\Lista.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\SENAC-CursoTecnico\\Módulo 2\\02 - Documentar e realizar manutenção de sites\\codigos\\Blog\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"

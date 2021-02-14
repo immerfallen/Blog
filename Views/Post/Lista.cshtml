@@ -1,0 +1,31 @@
+ @model ICollection<Post>
+    @{
+        ViewData["Title"] = "Cadastro";
+    }
+    
+    <h2>Listagem de Posts</h2>
+    
+    @if(Model != null)
+    {
+    <table id="tblPosts">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Data</th>
+                <th>Nº de comentários</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Post item in Model)
+            {
+                <tr>
+                    <td>@item.Titulo</td>
+                    <td>@item.Data</td>
+                    <td>@(item.Comentarios == null ? 0 : item.Comentarios.Count)</td>
+                    <td><a>Editar</a> | <a>Excluir</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    }
