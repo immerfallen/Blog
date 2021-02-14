@@ -1,5 +1,6 @@
 using System;
-
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Blog.Models
 {
@@ -10,7 +11,7 @@ namespace Blog.Models
         [StringLength(100)]
                 
         public string Autor { get; set; }
-        
+
         [Column(TypeName="TEXT")]        
         public string Conteudo { get; set; }
         
