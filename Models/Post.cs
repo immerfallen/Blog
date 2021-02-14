@@ -1,7 +1,20 @@
+using System;
+using System.Collections.Generic;
+
 namespace Blog.Models
 {
     public class Post
     {
+        public int Id { get; set; }
+        
+        public string Titulo { get; set; }
+        
+        public string Texto { get; set; }
+        
+        public DateTime Data { get; set; }
+        
+        public ICollection<Comentario> Comentarios { get; set; } // estabelece o relacionamento de 1: N - cada post possui vários comentários
+        
         
     }
 }
