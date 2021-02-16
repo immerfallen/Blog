@@ -18,9 +18,17 @@ namespace Blog.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int p=1)
         {
-            return View();
+            int quantidadePorPagina = 2;
+
+            PostService service = new PostService();
+            ICollection<Post> lista = service.GetPostsFull(p,quantidadePorPagina);
+
+            int quantidaDeResgistros = service.CountPosts();
+            ViewData["Paginas"] = (int)Math.Ceiling((double)quantidaDeResgistros / quantidadePorPagina);
+
+            return View(lista);
         }
 
         public IActionResult Privacy()

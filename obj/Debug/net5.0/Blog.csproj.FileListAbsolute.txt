@@ -52,3 +52,8 @@ D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites
 D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.NetTopologySuite.dll
 D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\obj\Debug\net5.0\EFCoreMySqlNetTopologySuite.cs
 D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\obj\Debug\net5.0\Razor\Views\Post\Cadastro.cshtml.g.cs
+D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\obj\Debug\net5.0\Razor\Views\Post\Lista.cshtml.g.cs
+D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\obj\Debug\net5.0\Razor\Views\Post\Exclui.cshtml.g.cs
+D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\obj\Debug\net5.0\Razor\Views\Home\_FormComentarios.cshtml.g.cs
+D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\obj\Debug\net5.0\Razor\Views\Shared\_LayoutBlog.cshtml.g.cs
+D:\SENAC-CursoTecnico\Módulo 2\02 - Documentar e realizar manutenção de sites\codigos\Blog\obj\Debug\net5.0\Razor\Views\Home\_ListaComentarios.cshtml.g.cs

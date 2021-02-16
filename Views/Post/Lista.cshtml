@@ -4,6 +4,20 @@
     }
     
     <h2>Listagem de Posts</h2>
+
+     <form asp-controller="Post" asp-action="Lista" method="GET">
+      <fieldset>
+          <legend>Filtros</legend>
+          <p style="float:left; margin-right:10px;">Termo: <input type="text" name="q" /></p>
+          <p>Ordenação: 
+              <select name="ordem">
+                  <option value="t">Título</option>
+                  <option value="d">Data</option>
+              </select> 
+          </p>
+          <input type="submit" value="buscar" />
+      </fieldset>
+  </form>
     
     @if(Model != null)
     {
@@ -23,7 +37,7 @@
                     <td>@item.Titulo</td>
                     <td>@item.Data</td>
                     <td>@(item.Comentarios == null ? 0 : item.Comentarios.Count)</td>
-                    <td><a>Editar</a> | <a>Excluir</a></td>
+                    <td><a href="../Post/Atualiza?id=@item.Id">Editar</a> | <a href="../Post/Exclui?id=@item.Id">Excluir</a></td>
                 </tr>
             }
         </tbody>
